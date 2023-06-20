@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class CSTests {
+
+	public static void main(String[] args) {
+
+System.out.println("Hello World!");
+
+// just trying to test something in java lava:P 
+/*and 
+ * this is another 
+ * test
+ */
+System.out.print("this is a \n text!");
+System.out.print("this is \b another text");
+System.out.print("this is \t another text");
+System.out.print("this \n is \r another\r text");
+
+//--------------------------------------------------
+
+System.out.print("You are ");
+System.out.println("Welcome in \n java" 
+		+ " lava \t programming");
+System.out.printf("%s%n%s%n", "I think you,", "are good");
+//----------------------------------------------------
+int x=7;
+int y=12;
+int z;
+System.out.println(x++ + ++y);
+System.out.print(x);
+System.out.println(Math.ceil(9.2));
+
+//----------------------------------------------------
+System.out.println();
+
+
+
+	}
+
+}

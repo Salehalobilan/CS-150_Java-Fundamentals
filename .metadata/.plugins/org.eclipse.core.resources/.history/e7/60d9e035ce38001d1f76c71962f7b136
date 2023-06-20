@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Exercise02 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("What is your big brother name and age? ");
+		String bigname = input.next();
+		int bigage = input.nextInt();
+		System.out.print("What is your small brother name and age? ");
+		String smallname = input.next();
+		int smallage = input.nextInt();
+		System.out.printf("Your big brother %s (%d years) is %d years"
+				+ " older than your small brother %s (%d years )",
+				 bigname , bigage , (bigage - smallage) , smallage  );
+		
+	}
+
+}

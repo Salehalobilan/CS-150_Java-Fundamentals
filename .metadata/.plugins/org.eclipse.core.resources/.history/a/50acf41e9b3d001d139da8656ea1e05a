@@ -1,0 +1,14 @@
+
+public class ArrayTest {
+
+	public static void main(String[] args) {
+		int grades[]= (99,85,87,77);
+		int sum;
+		float avg;
+		sum = grades[0]+ grades[1] + grades[2] + grades[3];
+		avg = (float)sum/4;
+		System.out.printf("%s%d%s%.1f%n","the sum is: ", sum, "the avrage is", avg );
+
+	}
+
+}
